@@ -59,8 +59,7 @@ names will be run for those as well (e.g. `premyscript`, `myscript`,
 
 ### DEPRECATION NOTE
 
-Since `npm@1.1.71`, the npm CLI has run the `prepublish` script for both `npm
-publish` and `npm install`, because it's a convenient way to prepare a package
+Since `npm@.1.71`, the npm CLI has run the `prepublish` script for both `npm publish` and `npm install`, because it's a convenient way to prepare a package
 for use (some common use cases are described in the section below).  It has
 also turned out to be, in practice, [very
 confusing](https://github.com/npm/npm/issues/10074).  As of `npm@4.0.0`, a new
